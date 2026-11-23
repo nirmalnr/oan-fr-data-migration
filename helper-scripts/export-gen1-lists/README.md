@@ -159,4 +159,4 @@ Columns that differ between Gen 1 versions, such as a list without `code`, a tra
 
 ## Tested
 
-23 Nov 2026, against the local copy of Gen 1 staging (`socialregistry_staging`): all 22 exports ran in about 5 seconds, and a run with a missing table reported the failure and carried on. Staging is an older Gen 1 version than the eyu branch of the Gen 1 code (its `g2p_crop` and `g2p_livestock_type` have no `code` column), so the test only shows the script works. The lists themselves have to come from production.
+23 Nov 2026, against the local copy of Gen 1 staging (`socialregistry_staging`): all 22 exports ran in about 5 seconds, and a run with a missing table reported the failure and carried on. Staging is an older Gen 1 version than the Gen 1 code provided by the team (its `g2p_crop` and `g2p_livestock_type` have no `code` column), so the test only shows the script works. The lists themselves have to come from production.
